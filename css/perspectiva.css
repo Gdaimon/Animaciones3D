@@ -1,0 +1,42 @@
+div{
+ font-family: Verdana;
+    background-color: #a8cf45;
+    font-size: 32px;
+    font-weight: bolder;
+    height: 180px;
+    margin: 50px 0 0 80px;
+    position: relative;
+    width: 400px;
+    text-align: center;
+}
+
+
+p{
+    padding-top: 70px;
+}
+
+
+.caja{
+    -webkit-animation: 1.5s giroX 1;
+    backface-visibility: visible;
+    
+}
+
+@-webkit-keyframes giroX {
+0% {opacity: 0.5;
+    transform: perspective(200px)
+               rotateX(90deg);} 
+40%{transform: perspective(200px)
+               rotateX(0deg);}
+70%{transform: perspective(200px)
+               rotateX(20deg);}
+
+}
+
+
+
+
+
+
+
+
